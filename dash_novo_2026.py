@@ -7,7 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1FHrHxljTRNsOtXpuAO7fHQxJqqmVv8iK
 """
 
-st.set_page_config(page_title="DashCOVID", layout="wide")
+st.set_page_config(
+    page_title="DashCovid",
+    layout="wide")
 
 st.title('Análise dos dados de COVID-19')
 
