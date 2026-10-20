@@ -7,12 +7,6 @@ Original file is located at
     https://colab.research.google.com/drive/1FHrHxljTRNsOtXpuAO7fHQxJqqmVv8iK
 """
 
-!pip install streamlit
-
-import pandas as pd
-import plotly.express as px
-import streamlit as st
-
 st.set_page_config(page_title="DashCOVID", layout="wide")
 
 st.title('Análise dos dados de COVID-19')
