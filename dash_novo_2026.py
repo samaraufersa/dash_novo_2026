@@ -7,6 +7,8 @@ Original file is located at
     https://colab.research.google.com/drive/1FHrHxljTRNsOtXpuAO7fHQxJqqmVv8iK
 """
 
+import streamlit as st
+
 st.set_page_config(
     page_title="DashCovid",
     layout="wide")
