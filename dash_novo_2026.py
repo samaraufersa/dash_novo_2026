@@ -17,7 +17,7 @@ st.set_page_config(
 
 st.title('Análise dos dados de COVID-19')
 
-df = pd.read_csv('/content/WHO_time_series_projeto.csv')
+df = pd.read_csv('WHO_time_series_projeto.csv')
 
 df.info()
 
